@@ -1,0 +1,85 @@
+// Core
+
+@import "vendor-bootstrap/functions";
+@import "vendor-argon/functions";
+
+@import "vendor-argon/variables";
+@import "vendor-bootstrap/variables";
+
+@import "vendor-bootstrap/mixins";
+@import "vendor-argon/mixins";
+
+// Bootstrap
+@import "vendor-bootstrap/root";
+@import "vendor-bootstrap/reboot";
+@import "vendor-bootstrap/type";
+@import "vendor-bootstrap/images";
+@import "vendor-bootstrap/code";
+@import "vendor-bootstrap/grid";
+@import "vendor-bootstrap/tables";
+@import "vendor-bootstrap/forms";
+@import "vendor-bootstrap/buttons";
+@import "vendor-bootstrap/transitions";
+@import "vendor-bootstrap/dropdown";
+@import "vendor-bootstrap/button-group";
+@import "vendor-bootstrap/input-group";
+@import "vendor-bootstrap/custom-forms";
+@import "vendor-bootstrap/nav";
+@import "vendor-bootstrap/navbar";
+@import "vendor-bootstrap/card";
+@import "vendor-bootstrap/breadcrumb";
+@import "vendor-bootstrap/pagination";
+@import "vendor-bootstrap/badge";
+@import "vendor-bootstrap/jumbotron";
+@import "vendor-bootstrap/alert";
+@import "vendor-bootstrap/progress";
+@import "vendor-bootstrap/media";
+@import "vendor-bootstrap/list-group";
+@import "vendor-bootstrap/close";
+@import "vendor-bootstrap/toasts";
+@import "vendor-bootstrap/modal";
+@import "vendor-bootstrap/tooltip";
+@import "vendor-bootstrap/popover";
+@import "vendor-bootstrap/carousel";
+@import "vendor-bootstrap/spinners";
+@import "vendor-bootstrap/utilities";
+@import "vendor-bootstrap/print";
+@import "vendor-bootstrap/rtl";
+@import "bootstrap-vue/src/index.scss";
+
+// Argon components
+
+@import "vendor-argon/reboot.scss";
+@import "vendor-argon/global.scss";
+@import "vendor-argon/utilities.scss";
+
+@import "vendor-argon/accordion.scss";
+@import "vendor-argon/alerts.scss";
+@import "vendor-argon/avatars.scss";
+@import "vendor-argon/badge.scss";
+@import "vendor-argon/buttons.scss";
+@import "vendor-argon/card.scss";
+@import "vendor-argon/carousel.scss";
+@import "vendor-argon/close.scss";
+@import "vendor-argon/custom-forms.scss";
+@import "vendor-argon/dropdown.scss";
+@import "vendor-argon/footer.scss";
+@import "vendor-argon/forms.scss";
+@import "vendor-argon/grid.scss";
+@import "vendor-argon/icons.scss";
+@import "vendor-argon/input-group.scss";
+@import "vendor-argon/list-group.scss";
+@import "vendor-argon/modal.scss";
+@import "vendor-argon/nav.scss";
+@import "vendor-argon/navbar.scss";
+@import "vendor-argon/pagination.scss";
+@import "vendor-argon/popover.scss";
+@import "vendor-argon/progress.scss";
+@import "vendor-argon/section.scss";
+@import "vendor-argon/type.scss";
+
+// Vendor
+
+@import "vendor-argon/vendor/flatpickr.scss";
+@import "vendor-argon/vendor/headroom.scss";
+@import "vendor-argon/vendor/nouislider.scss";
