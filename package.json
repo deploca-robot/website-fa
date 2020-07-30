@@ -13,7 +13,8 @@
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "nuxt": "^2.13.0",
-    "raf": "^3.4.1"
+    "raf": "^3.4.1",
+    "vue-horizontal-list": "^1.0.11"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",

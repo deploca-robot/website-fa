@@ -1,12 +1,13 @@
 <template>
-  <headroom offset="80">
+  <headroom :offset="80">
     <div class="container">
       <b-navbar toggleable="lg" type="dark">
-        <b-navbar-brand to="/">deploca</b-navbar-brand>
+        <b-navbar-brand to="/"><img src="/img/brand-48_3.png" /> deploca</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item to="/start">شروع کنیم!</b-nav-item>
+            <b-nav-item to="/marketplace">بازارچه</b-nav-item>
+            <b-nav-item to="/developers">توسعه دهندگان</b-nav-item>
             <b-nav-item to="/docs">مستندات</b-nav-item>
           </b-navbar-nav>
           <!-- Right aligned nav items -->
