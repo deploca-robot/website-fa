@@ -23,15 +23,13 @@
                 <div class="p-4">
                     <div class="row align-items-center">
                         <div class="col-lg-8">
-                            <h5 class="text-white">دیپلوکا به شما نیاز دارد</h5>
+                            <h5 class="text-white">جای نرم افزار شما در بازارچه دیپلوکا خالیست</h5>
                             <p class="text-white mt-3">
-                                دیپلوکا پلتفرمی ابری برای توسعه نرم افزار است که هرچه نرم افزارهای تولید شده توسط آن بیشتر و متنوع تر باشند، میتواند در جامعه تاثیر بیشتری داشته باشد.
-                                از شما برنامه نویسان فرانت اند و بک اند دعوت میشود تا در رشد این جامعه شرکت کرده و ما را یاری نمایید.
+
+                                بازارچه دیپلوکا مجموعه ای از نرم افزارها و ابزارهای کاربردی است و تلاش ما این است که محتویات آن غنی تر و متنوع تر باشند.
+                                از شما توسعه دهندگان گرامی دعوت میشود تا در رشد این مجموعه شرکت کرده و ما را یاری نمایید.
                             </p>
-                            <b-button tag="a" type="white" size="md"
-                                href="https://www.creative-tim.com/product/vue-argon-design-system">
-                                من آماده هستم
-                            </b-button>
+                            <b-button to="/developers">من آماده هستم</b-button>
                         </div>
                         <div class="col-lg-3 ml-lg-auto">
                             <img src="/img/manastronaut.svg" />
@@ -80,16 +78,16 @@
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="/#/" class="nav-link" rel="noopener"><i class="fa fa-home"></i> خانه</a>
+                            <nuxt-link to="/" class="nav-link" rel="noopener"><i class="fa fa-home"></i> خانه</nuxt-link>
                         </li>
                         <li class="nav-item">
-                            <a href="https://console.rocketpack.io/" class="nav-link" rel="noopener"><i class="fa fa-code"></i> ورود</a>
+                            <a href="https://console.deploca.com/" class="nav-link" rel="noopener"><i class="fa fa-code"></i> ورود</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/rocketpack-io" target="_blank"><i class="fab fa-github"></i> گیت هاب</a>
+                            <a class="nav-link" href="https://github.com/deploca" target="_blank"><i class="fab fa-github"></i> گیت هاب</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.linkedin.com/company/rocketpack-io" target="_blank"><i class="fab fa-linkedin"></i> لینکداین</a>
+                            <a class="nav-link" href="https://www.linkedin.com/company/deploca" target="_blank"><i class="fab fa-linkedin"></i> لینکداین</a>
                         </li>
                     </ul>
                 </div>
