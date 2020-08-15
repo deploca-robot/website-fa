@@ -1,14 +1,38 @@
 <template>
   <div>
-    <SubPageHeader title="بازارچه" />
+    <SubPageHeader title="بازارچه ابری دیپلوکا" />
 
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-4 col-sm-6 mb-4" v-for="i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14]" :key="i">
-          <AppCard />
-        </div>
-      </div>
-    </div>
+    <b-container>
+      <b-row>
+        <b-col cols="4">
+          <h6>بر اساس دسته بندی</h6>
+          <b-list-group>
+            <b-list-group-item :to="`?category=1`">عمومی</b-list-group-item>
+            <b-list-group-item :to="`?category=2`">مدیریت کسب و کار</b-list-group-item>
+            <b-list-group-item :to="`?category=3`">فروشگاه و تجارت الکترونیک</b-list-group-item>
+          </b-list-group>
+        </b-col>
+        <b-col>
+          <b-row>
+            <b-col col md="6" sm="12" class="mb-4"
+                   v-for="i in apps" :key="i.id">
+              <AppCard :app="i" />
+            </b-col>
+          </b-row>
+        </b-col>
+      </b-row>
+    </b-container>
 
   </div>
 </template>
+
+<script>
+  import { mapGetters } from 'vuex'
+  export default {
+    computed: {
+      ...mapGetters({
+        apps: 'apps/apps'
+      })
+    }
+  }
+</script>

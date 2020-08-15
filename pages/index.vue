@@ -124,8 +124,8 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4 col-sm-6 mb-4" v-for="i in [1,2,3]" :key="i">
-            <AppCard />
+          <div class="col-md-4 col-sm-6 mb-4" v-for="i in apps" :key="i.id">
+            <AppCard :app="i" />
           </div>
         </div>
         <div class="btn-wrapper text-center mt-5">
@@ -199,5 +199,12 @@
 </template>
 
 <script>
-export default {}
+  import { mapGetters } from 'vuex'
+  export default {
+    computed: {
+      ...mapGetters({
+        apps: 'apps/apps'
+      })
+    }
+  }
 </script>
