@@ -23,8 +23,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: '/fonts/iransans/css/iransans.css' }
+      { rel: 'icon', type: 'image/x-icon', href: '//assets.deploca.com/favicon.ico' },
+      { rel: 'stylesheet', type: 'text/css', href: '//assets.deploca.com/fonts/iransans/css/iransans.css' }
     ]
   },
   /*

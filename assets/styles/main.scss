@@ -83,3 +83,10 @@
 @import "vendor-argon/vendor/flatpickr.scss";
 @import "vendor-argon/vendor/headroom.scss";
 @import "vendor-argon/vendor/nouislider.scss";
+
+// custom
+html {
+  font-size: 15px;
+}
+@import "pulse";
+@import "pages";
